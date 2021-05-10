@@ -1,5 +1,5 @@
  show = () => { 
-        let   second = 1000 , 
+        const   second = 1000 , 
             minutes = second * 60 , 
             hours = minutes * 60 , 
             days = hours * 24 ;
