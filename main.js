@@ -1,4 +1,4 @@
-function show () { 
+ show = () => { 
         let   second = 1000 , 
             minutes = second * 60 , 
             hours = minutes * 60 , 
@@ -9,7 +9,7 @@ function show () {
       if(dat == "" || name == ""){
           alert (`Enter Event's information`);
       }else{
-       x = setInterval(function(){
+       x = setInterval(() => {
         let now = new Date();
         let resul = countDown - now ;
         let day = Math.floor(resul / (days)),
